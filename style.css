@@ -23,6 +23,7 @@ header {
     padding: 15px 55px;
     background-color: #2E8BC0;
     overflow: hidden;
+    width: 100%;
 }
 
 .logo img {
