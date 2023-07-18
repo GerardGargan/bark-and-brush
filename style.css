@@ -22,7 +22,7 @@ header {
     align-items: center;
     padding: 15px 55px;
     background-color: #2E8BC0;
-    
+    overflow: hidden;
 }
 
 .logo img {
