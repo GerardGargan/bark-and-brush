@@ -6,6 +6,11 @@
     /*border: 1px solid red;*/
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-size: 45px;
 }
@@ -40,7 +45,6 @@ header {
     margin: 100px;
     display: flex;
     height: 350px;
-    align-items: stretch;
     gap: 100px;
 }
 
@@ -50,7 +54,8 @@ header {
     font-size: 30px;
     font-weight: 300px;
     color: #414141;
-    min-width: 600px;
+    min-width: 560px;
+    
 }
 
 .about-text-centered {
@@ -72,7 +77,6 @@ header {
 }
 
 .about-image img {
-    min-height: 200px;
     max-height: 300px;
     object-fit: contain;
     border-radius: 50%;
@@ -191,7 +195,7 @@ header {
     color: white;
     padding: 30px;
     
-    min-width: 600px;
+    
 }
 
 .contact-section h1 {
