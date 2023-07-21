@@ -50,6 +50,7 @@ header {
     font-size: 30px;
     font-weight: 300px;
     color: #414141;
+    min-width: 600px;
 }
 
 .about-text-centered {
@@ -71,7 +72,8 @@ header {
 }
 
 .about-image img {
-    height: 300px;
+    min-height: 200px;
+    max-height: 300px;
     object-fit: contain;
     border-radius: 50%;
     border: 7px solid #b70466;
@@ -214,7 +216,7 @@ header {
 
 .contact-left {
     
-    min-width: 900px;
+    min-width: 600px;
 }
 
 .contact-right {
