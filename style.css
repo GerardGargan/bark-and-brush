@@ -5,6 +5,9 @@
     /*border: 1px solid red;*/
 }
 
+h1 {
+    font-size: 45px;
+}
 
 
 div {
@@ -75,9 +78,7 @@ header {
 
 
 .about h1 {
-    font-size: 45px;
     color: #b70466;
-    
 }
 
 
@@ -160,6 +161,38 @@ header {
     font-size: 25px;
     font-weight: bold;
 }
+
+
+.location-left h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.location-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #2E8BC0;
+    
+}
+
+.location-main {
+    display: flex;
+    gap: 30px;
+}
+
+.location-left {
+    
+    margin: 100px;
+}
+
+.location-right {
+    color: white;
+    padding: 30px;
+    
+    min-width: 600px;
+}
+
 
 .footer {
     display: flex;
