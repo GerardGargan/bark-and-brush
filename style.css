@@ -2,6 +2,7 @@
     padding: 0px 0px;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
     /*border: 1px solid red;*/
 }
 
@@ -36,17 +37,17 @@ header {
 }
 
 .about {
+    margin: 100px;
     display: flex;
-    height: 500px;
+    height: 350px;
     align-items: stretch;
+    gap: 100px;
 }
 
 .about-text {
     display: flex;
     flex-direction: column;
-    margin: 100px;
     font-size: 30px;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 300px;
     color: #414141;
 }
@@ -59,7 +60,7 @@ header {
     display: flex;
     flex-direction: column  ;
     gap: 10px;
-    margin: 100px 100px 100px 0px;
+    
     
     
 }
@@ -98,7 +99,7 @@ header {
     
 }
 
- .contact-header ul {
+.contact-header ul {
     display: flex;
     list-style: none;
     gap: 25px;
@@ -112,6 +113,7 @@ header {
     background-color: #c9daea;
     color:rgb(101, 101, 101);
  }
+
 
 .cta-container {
     width:100%;
@@ -163,9 +165,9 @@ header {
 }
 
 
-.location-left h1 {
+.location-section h1 {
     color: white;
-    margin-bottom: 30px;
+    margin: 30px 0px 0px 100px;
 }
 
 .location-section {
@@ -179,18 +181,50 @@ header {
 .location-main {
     display: flex;
     gap: 30px;
-}
-
-.location-left {
-    
     margin: 100px;
 }
+
 
 .location-right {
     color: white;
     padding: 30px;
     
     min-width: 600px;
+}
+
+.contact-section h1 {
+    color: #b70466;
+    margin: 30px 0px 0px 100px;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    
+}
+
+.contact-main {
+    display: flex;
+    gap: 30px;
+    padding: 100px;
+}
+
+
+.contact-left {
+    
+    min-width: 900px;
+}
+
+.contact-right {
+    
+    
+}
+
+.table-custom th, td {
+    font-size: 20px;
+    padding: 5px 20px;
 }
 
 
