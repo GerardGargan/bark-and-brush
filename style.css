@@ -151,3 +151,12 @@ header {
     font-size: 25px;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+}
+
+.footer img {
+    overflow: hidden;
+    object-fit: contain;
+}
