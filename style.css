@@ -66,8 +66,7 @@ header {
     display: flex;
     flex-direction: column  ;
     gap: 10px;
-    
-    
+    object-fit: contain;
     
 }
 
@@ -76,11 +75,16 @@ header {
     font-style: italic;
 }
 
-.about-image img {
-    max-height: 300px;
+.about-image-image img {
+    
+    
     object-fit: contain;
+    max-width: 100%;
+    max-height: 500px;
+    flex-shrink: 0;
     border-radius: 50%;
     border: 7px solid #b70466;
+    
 }
 
 
@@ -220,7 +224,7 @@ header {
 
 .contact-left {
     
-    min-width: 600px;
+    min-width: 60%;
 }
 
 .contact-right {
