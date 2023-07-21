@@ -54,16 +54,25 @@ header {
 
 .about-image {
     display: flex;
+    flex-direction: column  ;
+    gap: 10px;
     margin: 100px 100px 100px 0px;
     
     
 }
 
+.about-image-caption {
+    text-align: center;
+    font-style: italic;
+}
+
 .about-image img {
+    height: 300px;
     object-fit: contain;
     border-radius: 50%;
     border: 7px solid #b70466;
 }
+
 
 .about h1 {
     font-size: 45px;
