@@ -32,6 +32,45 @@ header {
     
 }
 
+.about {
+    display: flex;
+    height: 500px;
+    align-items: stretch;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300px;
+    color: #414141;
+}
+
+.about-text-centered {
+    align-self: center;
+}
+
+.about-image {
+    display: flex;
+    margin: 100px 100px 100px 0px;
+    
+    
+}
+
+.about-image img {
+    object-fit: contain;
+    border-radius: 50%;
+    border: 7px solid #b70466;
+}
+
+.about h1 {
+    font-size: 45px;
+    color: #b70466;
+    
+}
+
 
 .img-container {
     background-color: white;
