@@ -194,13 +194,14 @@ header {
     display: flex;
     gap: 30px;
     margin: 100px;
+    justify-content: center;
+    
 }
 
 
 .map {
-    width: 100%;
+    width: 80%;
     height: 500px;
-    
 }
 
 .contact-section h1 {
@@ -212,6 +213,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    
 
     
 }
@@ -220,6 +222,7 @@ header {
     display: flex;
     gap: 30px;
     padding: 100px;
+    
 }
 
 
@@ -231,7 +234,7 @@ header {
 
 
 .table-custom th, td {
-    font-size: 20px;
+    font-size: 30px;
     padding: 5px 20px;
 }
 
